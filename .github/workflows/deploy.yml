@@ -8,9 +8,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
-      -name: checkout
+      #-name: checkout
       uses: actions/checkout@V4
 
       -name: Install dependencies
