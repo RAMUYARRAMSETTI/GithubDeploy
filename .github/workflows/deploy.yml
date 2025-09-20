@@ -11,7 +11,7 @@ jobs:
 
     steps:
       #-name: checkout
-      uses: actions/checkout@V4
+      #uses: actions/checkout@V4
 
       -name: Install dependencies
       run: npm install-production
