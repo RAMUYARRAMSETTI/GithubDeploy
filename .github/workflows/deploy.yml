@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
       -name: checkout
       uses: actions/checkout@V4
@@ -21,7 +22,7 @@ jobs:
         app-name: hrml-pipeline-demo
         publish-profile: ${{secrets.AZURE_WEBAPP_PUBLISH_PROFILE}}
         package: site.zip
-        
+
 
     
 
