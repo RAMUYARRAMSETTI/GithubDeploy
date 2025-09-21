@@ -1,9 +1,13 @@
+
 {
-    "name": "html-demo",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.18.2"}
+  "name": "html-demo",
+  "version": "1.0.0",
+  "description": "Demo HTML site served with Node.js Express on Azure App Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
